@@ -7,7 +7,7 @@ function App() {
 
 	useEffect(() => {
     
-		fetch(process.env.BACKEND_URL)
+		fetch("https://hackatoon-9aso-grupo14-back-prod-s25hozbnja-uc.a.run.app")
 		 .then((res) => res.json())
       		 .then((result) => setData(result))
       		 .catch((err) => console.log("error"));
