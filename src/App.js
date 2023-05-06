@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 // Importing modules
 import React, { useState, useEffect } from "react";
 import "./App.css";
